@@ -1,0 +1,83 @@
+.footer{
+display: flex;
+align-items: center;
+background: #282828;
+justify-content: center;
+color: #ffffff;
+font-family: "Monument Extended-Regular", Helvetica;
+bottom: 0;
+z-index: 2;
+width: 100%;
+border-top-right-radius: 7rem;
+border-top-left-radius: 7rem;
+}
+
+.footer > * + * {
+    margin-left: 6rem; /* Adjust as needed */
+  }
+
+.foot__headers {
+    color: #ffffff;
+    font-family: "Monument Extended-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 27.3px;
+    white-space: nowrap;
+    z-index: 2;
+    padding-top: 18px;
+    }
+
+    .foot__headers1 {
+        color: #ffffff;
+        font-family: "Monument Extended-Regular", Helvetica;
+        font-size: 25px;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: 27.3px;
+        white-space: nowrap;
+        padding-top: 18px;
+      
+     
+     
+        }
+
+    .foot__content {
+        color: #ffffff;
+        font-family: "Gordita-Regular", Helvetica;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: 26.2px;
+        opacity: 0.5;
+        top: 0;
+       
+        }
+
+ul{
+    padding: 0;
+    
+}
+@media screen and (max-width: 600px) {
+   body .footer{
+    display: flex;
+    flex-direction: column;
+     border-radius: 0%;
+     width: 100%;
+    }
+
+body .foot__headers1{
+    line-height: 13px;
+    }
+
+    .footer >  *+* {
+        margin-left: -18.3rem; /* Adjust as needed */
+      }
+
+   body .foot__headers{
+ display: none;
+    }
+
+   
+}
+

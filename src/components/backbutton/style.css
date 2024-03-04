@@ -1,0 +1,16 @@
+.back{
+    color:aliceblue;
+    background-color: black;
+    font-size: 2rem;
+    padding: 0.9rem;
+    line-height: 10px;
+    border-radius: 3rem;
+}
+
+
+@media screen and (max-width: 600px){
+    .backbutton{
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+}

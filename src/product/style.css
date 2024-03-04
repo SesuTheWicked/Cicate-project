@@ -1,0 +1,23 @@
+.imgSize{
+    height: 28.5vh;
+    width: 450px;
+    border-radius: 53px;
+}
+
+.center_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1.9rem;
+}
+
+@media screen and  (max-width: 600px){
+    .imgSize{
+        height: 28vh;
+        width: 38vh;
+    }
+    .price{
+        background-color: white;
+     
+    }
+}

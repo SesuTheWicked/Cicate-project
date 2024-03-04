@@ -1,0 +1,145 @@
+.sign_white {
+color: #ffffff;
+font-family: "Monument Extended-Regular", Helvetica;
+font-size: 100px;
+font-weight: 400;
+letter-spacing: 0;
+line-height: 107px;
+    }
+ body.darker{
+    background-color: #282828;
+    margin: 0;
+    padding: 0;
+  }
+
+  body.special-page {
+    background-color:#282828; /* Replace 'your_color' with the desired color code or name */
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+  }
+  
+
+    .sign_opac {
+ color: #ffffff;
+font-family: "Gordita-Regular", Helvetica;
+font-size: 27px;
+font-weight: 400;
+letter-spacing: -0.81px;
+line-height: 43.9px;
+        }
+.yui{
+    margin-bottom: 22rem;
+}
+
+        .forgot_password {
+color: red;
+font-family: "PP Monument Extended-Regular", Helvetica;
+font-size: 15px;
+font-weight: 400;
+letter-spacing: 0.38px;
+line-height: 32.5px;
+text-align: center;
+text-decoration: underline;
+white-space: nowrap;
+margin-left: 70px;
+
+            } 
+
+ .green_login{
+ background-color: #33cc00;
+border-radius: 32px;
+color: #282828;
+font-family: "Monument Extended-Regular", Helvetica;
+font-size: 27px;
+font-weight: 400;
+letter-spacing: 1.49px;
+line-height: 32.5px;
+padding-left: 30px;
+padding-right: 30px;
+margin-left: 62px;
+text-align: center;
+margin-top: 20px;
+
+
+                }
+        .icon_immg{
+            margin-right: 15px;
+        }
+
+.email{
+background-color: #FFFFFF;
+border-radius: 40px;
+padding: 20px;
+padding-right: 220px;
+font-size: 24px;
+}
+
+.pwd{
+    background-color: #33cc00;
+    border-radius: 40px;
+    padding: 20px;
+    padding-right: 220px;
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 600px) {
+    body .sign_flex{
+        display: grid;
+        flex-direction: column;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+        margin-left: 2rem;
+       
+    }
+
+    .grening{
+        display: none !important;
+    }
+
+   
+
+   body .sign_opac{
+     font-size: 2rem;
+     line-height: 2.5rem;
+    }
+
+   body .sign_white{
+  font-size: 6rem;
+  font-weight: bold !important;
+ 
+    }
+
+    body .email{
+    font-size: 2rem;
+    padding: 1.2rem;
+  
+    }
+
+    body .icon_immg{
+       margin-right: 1rem;
+       width: 3.5vh;
+    }
+
+body .down_sign{
+margin-left: -4rem;
+}
+ .yui{
+    display: none !important;
+ }
+  
+
+    body .pwd{
+        font-size: 2rem;
+        padding: 1.2rem;
+        color: black;
+    }
+
+    .green_login{
+     font-size: 2rem;
+    }
+
+    .forgot_password{
+      font-size: 1.2rem;
+    }
+}

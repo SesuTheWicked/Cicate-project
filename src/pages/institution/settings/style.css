@@ -1,0 +1,36 @@
+.institution_black{
+    background: #282828;
+    width: 900px;
+    height:800px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 35px;
+}
+
+.inst_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .institution_black{
+        height:1080px;
+        line-height: 10px;
+        width: 300px;
+        padding: 10px;
+    }
+
+    .insti-profile{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        line-height: 30px;
+        margin-top: 2rem;
+    }
+}

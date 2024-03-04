@@ -1,0 +1,196 @@
+
+
+    
+        .green_money {
+            color: #33cc00;
+            font-family: "PP Monument Extended-Light", Helvetica;
+            font-size: 4rem;
+           font-weight: 300;
+           letter-spacing: 0;
+            line-height: 32.1px;
+            letter-spacing: 0;
+            margin-top: 80px;
+            }
+
+            .onsite-online{
+                color: #ffffff;
+                font-family: "PP Monument Extended-Regular", Helvetica;
+                font-size: 2rem;
+                font-weight: 400;
+                letter-spacing: -0.54px;
+                line-height: 32.5px;
+                border-radius: 8rem;
+                text-align: center;
+                 padding: 7px;
+                padding-left: 15px;
+                padding-right: 15px;
+                
+            }
+
+            .onsite-online1{
+                color: #ffffff;
+                font-family: "PP Monument Extended-Regular", Helvetica;
+                font-size: 2rem;
+                font-weight: 400;
+                letter-spacing: -0.54px;
+                line-height: 32.5px;
+                background-color: #33cc00;
+                border-radius: 8rem;
+                text-align: center;
+                padding: 7px;
+                padding-left: 15px;
+                padding-right: 15px;
+                
+              
+                            }
+            .onsie{
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                margin-top: 3rem;
+            }
+
+            .onsie > * + * {
+                margin-left: 5rem; /* Adjust as needed */
+              }
+            
+
+            .regfor{
+                justify-content:left;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 350px;
+                line-height: 70px;
+                padding-top: 60px;
+            }
+
+            .regfor > * + * {
+                margin-left: 7rem; /* Adjust as needed */
+              }
+            
+
+
+        .registering {
+            color: #ffffff;
+            font-family: "Monument Extended-Regular", Helvetica;
+            font-size: 6rem;
+            font-weight: bold;
+            letter-spacing: 0;
+            line-height: 56.7px;
+            letter-spacing: 0;
+            line-height: 56.7px;
+            }
+            .for {
+            font-family: "PP Monument Extended-Light", Helvetica;
+            font-size: 6rem;
+            font-weight: 300;
+            letter-spacing: 0;
+            line-height: 30.7px;
+            color: #ffffff;
+            }
+            
+    
+                .questions {
+                    color: #ffffff;
+                    font-family: "Monument Extended-Regular", Helvetica;
+                    font-size: 3rem;
+                    font-weight: 400;
+                    letter-spacing: 0;
+                    line-height: 32.1px;
+                    margin-top: 7rem;
+
+                    }
+
+            .second_block{
+                background-color:#282828;
+                justify-content: center;
+                align-items: center;
+                border-radius: 60px;
+                padding: 3rem;
+                
+            }
+
+            @media screen and (max-width:600px) {
+                
+
+                .registering{
+                  font-size: 1.7rem;
+                  line-height: 10px;
+                }
+
+                
+
+                .onsie{
+                    margin-top: 0rem;
+                }
+
+               
+
+                .second_block{
+                    padding: 0.5rem;
+                }
+
+               .inside_flex{
+                gap: 0rem;
+               }
+
+                .for{
+                  font-size: 2rem;
+                  line-height: 5px;
+                }
+
+                .green_money{
+                  font-size: 1.3rem;
+                  margin-top: 30px;
+                }
+
+                .regfor > * + * {
+                    margin-left: 3rem; /* Adjust as needed */
+                  }
+
+                  .regfor{
+                    padding-top: 1px;
+                    margin-right: 0px;
+                    display: flex;
+                    justify-content: left;
+                  }
+                  .onsie {
+                    margin-left: 3rem;
+                    margin-top: 1rem;
+                  }
+
+                  .onsie > * + * {
+                    margin-left: 1.3rem; /* Adjust as needed */
+                  }
+
+                  .onsite-online{
+                     font-size: 1.5rem;
+                     padding: 4px;
+                  }
+
+                  .onsite-online:hover{
+                    background-color: #33cc00;
+                    color: black;
+                  }
+
+                  .onsite-online1{
+                    font-size: 1.5rem;
+                    padding: 4px;
+                  }
+
+                  .questions{
+                    font-size: 1.6rem;
+                    margin-top: 2rem;
+                    margin-left: 3rem;
+                    line-height: 20px;
+                  }
+
+                  .line-hat{
+                    line-height: 30px;
+                    margin-left: 6rem;
+                  }
+                
+            }
+
+           

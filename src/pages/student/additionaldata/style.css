@@ -1,0 +1,120 @@
+
+.bluk_pad {
+    z-index: 0;
+    background-color: #020202;
+    border-radius: 60px;
+    margin-top: 50px;
+    padding: 30px;
+    display: inline-block;
+    margin-bottom: 5rem;
+    }
+
+    .right_side1{
+      line-height: 10px;
+      margin-top: 0rem;
+        }
+
+        .right_side4{
+          line-height: 10px;
+          margin-top: 3rem;
+            }
+
+
+        .right_side7{
+          line-height: 10px;
+          margin-top: -1rem;
+            }
+
+      
+
+
+        .fall1{
+          line-height: 25px;
+          margin-top: 0rem;
+        }
+    .input_country{
+        color: #ffffff;
+        font-family: "PP Monument Extended-Light", Helvetica;
+        font-size: 18px;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 32.5px;
+        text-align: center;
+          white-space: nowrap;
+          background-color: #282828;
+        border-color: #ffffff;
+          border-radius: 30px;
+          padding: 2px;
+          }
+
+
+          .invalid_input_country{
+            color: #ffffff;
+            font-family: "PP Monument Extended-Light", Helvetica;
+            font-size: 18px;
+            font-weight: 300;
+            letter-spacing: 0;
+            line-height: 32.5px;
+            text-align: center;
+              white-space: nowrap;
+              background-color:red;
+            border-color: #ffffff;
+              border-radius: 30px;
+              padding: 2px;
+              }
+
+
+              .valid_input_country{
+                color: #ffffff;
+                font-family: "PP Monument Extended-Light", Helvetica;
+                font-size: 18px;
+                font-weight: 300;
+                letter-spacing: 0;
+                line-height: 32.5px;
+                text-align: center;
+                  white-space: nowrap;
+                  background-color: #282828;
+                  border-color:#33CC00;
+                  border-radius: 30px;
+                  padding: 2px;
+                  }
+ @media screen and (max-width: 600px){
+    .bluk_pad{
+        padding: 3.6rem;
+    }
+
+   body .input_country{
+        font-size: 10.5px;
+        font-weight: 400;
+    }
+
+    .right_side7{
+      line-height: 10px;
+      margin-top: 1rem;
+        }
+
+        .right_side4{
+          line-height: 10px;
+          margin-top: 1rem;
+            }
+
+
+    .invalid_input_country{
+     
+        font-size: 10px;
+       
+          background-color:red;
+     
+          padding: 2px;
+          }
+
+
+          .valid_input_country{
+        
+            font-size: 10px;
+          
+              border-color:#33CC00;
+            
+              padding: 2px;
+              }
+ }

@@ -1,0 +1,207 @@
+.pay_bold{
+    color: #282828;
+    font-family: "Monument Extended-Regular", Helvetica;
+    font-size: 90px;
+    font-weight: 400;
+    letter-spacing: -0.9px;
+    line-height: 96.3px;
+}
+
+.pay_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.payment_fle{
+    display: flex;
+    justify-content: center;
+    margin-right: 5rem;
+    background-color: #282828;
+  
+}
+.payment_fle > * + * {
+    margin-left: 7rem; /* Adjust as needed */
+  }
+
+  .payment_fle5 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #282828;
+    border-radius: 60px;
+     line-height: 40px;
+     padding: 2rem;
+  }
+
+  .payment_fle5 > * + * {
+    margin-left: 40rem; /* Adjust as needed */
+  }
+
+.john_oliver{
+        color: #ffffff;
+        font-family: "PP Monument Extended-Light", Helvetica;
+        font-size: 18px;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 32.5px;
+        white-space: nowrap;
+        background-color: #282828;
+        border-radius: 50px;
+        padding: 10px;
+        display: flex;
+        width: 500px;
+       
+        }
+        
+
+
+.payment_fle2{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5rem;
+    background-color: #282828;
+    border-radius: 60px;
+     line-height: 40px;
+     padding: 3rem;
+}
+
+.payment_fle2 > * + * {
+    margin-left: 40rem; /* Adjust as needed */
+  }
+
+.payment_fle3{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding-bottom: 40px;
+    margin-left: 25rem;
+}
+
+
+.black_pay{
+    background-color: #282828;
+   border-radius: 60px;
+    line-height: 40px;
+    padding: 30px;
+   margin-top: 70px;
+}
+
+.black_pay2{
+    background-color: #282828;
+   border-radius: 60px;
+    line-height: 40px;
+    padding: 30px;
+   margin-top: 70px;
+ 
+}
+
+.justify_black{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+
+}
+
+.green_money2 {
+color: #33cc00;
+font-family: "Monument Extended-Regular", Helvetica;
+font-size: 75px;
+font-weight: 400;
+letter-spacing: -0.75px;
+line-height: 80.3px;
+    }
+
+.button_pay{
+background-color: #33cc00;
+border-radius: 80px;
+color: #ffffff;
+font-family: "Monument Extended-Regular", Helvetica;
+font-size: 40px;
+font-weight: 400;
+letter-spacing: -0.4px;
+line-height: 42.8px;
+text-align: center;
+white-space: nowrap;
+padding: 2rem;
+cursor: pointer;
+}
+
+.total_pay{
+    color: #ffffff;
+    font-family: "Monument Extended-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    line-height: 42.8px;
+}
+
+@media screen and (max-width: 600px) {
+    .payment_fle{
+        display: grid;
+        flex-direction: column;
+        margin-right: 0rem;
+        line-height: 15px;
+    }
+
+    .payment_fle > * + * {
+        margin-left: 0rem; /* Adjust as needed */
+      }
+
+      .pay_bold{
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: bold;
+      }
+      .pay_div{
+        margin-top: 20px;
+      }
+
+      .black_pay{
+        background-color: #282828;
+       border-radius: 60px;
+        line-height: 40px;
+        padding: 30px;
+       margin-top: 10px;
+    }
+  
+    
+    .justify_black{
+        margin-top: 2rem;
+    
+    }
+
+    .payment_fle3{
+       
+        margin-top: 30px;
+        padding-bottom: 10px;
+        margin-left: 0rem;
+    }
+
+   body .payment_fle5 {
+        display: flex;
+        justify-content: space-around;
+        background-color: #282828;
+        border-radius: 60px;
+         line-height: 10px;
+         padding: 0.9rem;
+      }
+    
+      .payment_fle5 > * + * {
+        margin-left: 13rem; /* Adjust as needed */
+      }
+
+      body .total_pay{
+       margin-top: 1.7rem;
+        line-height: 8.8px;
+    }
+
+    body .green_money2 {
+      
+        line-height: 30.3px;
+            }
+      body  .button_pay{
+          line-height: 20px;
+          margin-bottom: 0.7rem;
+        }
+}

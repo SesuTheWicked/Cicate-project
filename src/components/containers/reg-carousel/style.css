@@ -1,0 +1,225 @@
+
+    .black_page {
+        background-color: #282828;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+.hro{
+  background: #33CC00;
+  height: 5px;
+  border-radius: 20px;
+}
+    .current-position {
+        background-color: #33cc00;
+        border-radius: 30px;
+        height: 10px;
+        width: 100px;
+        }
+
+        .non-current-position {
+          display: none;
+        }
+
+        .pic1{
+           margin-right: 8px;
+            }
+            .inside_flex{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               
+            }
+            
+            .next {
+                margin-left: 20px;
+               
+                }
+
+    
+    .flex_green_sign{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 180px;
+       margin-right: 300px;
+     
+       
+        
+    }
+
+    .flex_green_sign > * + * {
+        margin-left: 4rem; /* Adjust as needed */
+      }
+    
+    .personal_information {
+        color: #ffffff;
+        font-family: "PP Monument Extended-Light", Helvetica;
+        font-size: 10px;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: 22.3px;
+        cursor: pointer;
+        }
+
+        .flex_end{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .flex_end > * + * {
+            margin-left: 4rem; /* Adjust as needed */
+          }
+        
+       
+
+        .bluk {
+            z-index: 0;
+            background-color: #020202;
+            border-radius: 60px;
+            margin-top: 50px;
+            padding: 30px;
+            display: inline-block;
+            margin-bottom: 5rem;
+            }
+
+
+
+                      
+            
+        .personal {
+            font-size: 20px;
+                font-weight: 400;
+                letter-spacing: 0;
+                line-height: 22.3px;
+                font-family: "PP Monument Extended-Light", Helvetica;
+            }
+            .information {
+                font-size: 20px;
+                font-weight: bold;
+                letter-spacing: 0;
+                line-height: 22.3px;
+                font-family: "PP Monument Extended-Light", Helvetica;
+            
+            }
+
+
+            .personal_unselected {
+                font-size: 20px;
+                font-weight: 400;
+                letter-spacing: 0;
+                line-height: 22.3px;
+                font-family: "PP Monument Extended-Light", Helvetica;
+                opacity: 0.5;
+                color: #ffffff;
+                }
+                .information_unselected {
+                    font-size: 20px;
+                    font-weight: bold;
+                    height: 46px;
+                    letter-spacing: 0;
+                    line-height: 22.3px;
+                     opacity: 0.5;
+                }
+
+    .green_body {
+        height: 200px;
+        left: 16px;
+        top: 0;
+        width: 150px;
+        }
+
+        .green_div {
+            height: 250px;
+           
+            width: 150px;
+            }
+
+.signup_white{
+color: #ffffff;
+font-family: "Monument Extended-Regular", Helvetica;
+font-size: 6rem;
+font-weight: 400;
+letter-spacing: 0;
+line-height: 56.7px;
+                }
+
+
+                @media screen and (max-width: 600px) {
+                 body .signup_white{
+                    font-size :1.2rem; 
+                    line-height: 20px;
+                    font-weight: bold;
+                    color: #33CC00;
+                    
+                   
+                  }
+
+                  .flex_green_sign > * {
+                    margin-right: -4rem; /* Adjust as needed */
+                  }
+
+                  .flex_green_sign{
+                    margin-top: 80px;
+                  }
+                  .green_body{
+                    display: none;
+                  }
+
+                  .inside_flex{
+                    gap: 0.2rem;
+                  }
+
+                  .personal {
+                    font-size: 10px;
+                        font-weight: 400;
+                        left: 0;
+                        letter-spacing: 0;
+                        line-height: 22.3px;
+                        font-family: "PP Monument Extended-Light", Helvetica;
+                    }
+
+                    .flex_end > * + * {
+                        margin-left: 1rem; /* Adjust as needed */
+                      }
+                    .information {
+                        font-size: 10px;
+                        font-weight: bold;
+                        letter-spacing: 0;
+                        line-height: 22.3px;
+                        font-family: "PP Monument Extended-Light", Helvetica;
+                    
+                    }
+                   .pic1{
+                    display: none !important;
+                   }
+
+                   .current-position {
+                    background-color: #33cc00;
+                    border-radius: 30px;
+                    height: 10px;
+                    width: 60px;
+                    }
+        
+                    .personal_unselected {
+                        font-size: 11px;
+                        font-weight: 400;
+                        letter-spacing: 0;
+                        line-height: 10.3px;
+                        font-family: "PP Monument Extended-Light", Helvetica;
+                        opacity: 0.5;
+                        }
+                        .information_unselected {
+                            font-size: 11px;
+                            font-weight: bold;
+                            letter-spacing: 0;
+                            line-height: 10.3px;
+                             opacity: 0.5;
+                        }
+
+                        .next{
+                            margin-left: 1px;
+                        }
+
+                }

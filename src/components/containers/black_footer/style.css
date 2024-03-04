@@ -1,0 +1,116 @@
+
+.second_nav_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: "Gordita-Regular", Helvetica;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 1.1px;
+  line-height: 32.5px;
+  bottom: 0;
+}
+
+
+.second_nav_list > * + * {
+  margin-left: 3rem; /* Adjust as needed */
+}
+
+
+.copyright {
+  color: #ffffff;
+  font-family: "PP Monument Extended-Light", Helvetica;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1.1px;
+  line-height: 32.5px;
+  text-align: center;
+  white-space: nowrap;
+  }
+
+
+.black-foot_header {
+  color: #ffffff;
+  font-family: "Gordita-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.1px;
+  line-height: 32.5px;
+  text-align: center;
+  white-space: nowrap;
+  }
+
+.nav__itemlist{
+  color: #ffffff;
+  font-family: "Gordita-Regular", Helvetica;
+}
+
+
+
+  .copyright2 {
+    color: #33cc00;
+    font-family: "PP Monument Extended-Light", Helvetica;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.99px;
+    line-height: 32.5px;
+    text-align: center;
+    white-space: nowrap;
+    }
+    
+.second_footer {
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0; /* Add padding for better visual separation */
+    background-color: #282828;
+}
+
+    .manage{
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        line-height: 70px;
+    }
+
+    @media screen and (max-width: 600px){
+        body  .second_footer{
+          display: flex !important;
+          flex-direction: column !important;
+          width: 100%;
+         
+          }
+
+          .black-foot_header{
+            border-radius: 4rem;
+           border-style: solid !important;
+          
+           padding: 0.8rem;
+           
+           
+           
+          }
+
+          body .second_nav_list{
+            display: grid !important;
+            flex-direction: column !important;
+            bottom: 0;
+            padding: auto !important;
+          }
+
+          .second_nav_list > *  {
+            margin-left: -8.5rem; /* Adjust as needed */
+            margin-top: 2rem; /* Adjust as needed */
+          }
+
+          .manage{
+            display: none !important;
+          }
+
+          .dis{
+            display: none !important;
+          }
+    }
+     

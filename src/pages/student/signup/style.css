@@ -1,0 +1,133 @@
+
+    .sign_opacity {
+      color: #ffffff;
+      font-family: "PP Monument Extended-Regular", Helvetica;
+      font-size: 7.5rem;
+      font-weight: 400;
+      letter-spacing: 0;
+      line-height: 90px;
+      opacity: 0.5;
+      white-space: nowrap;
+ 
+        }
+
+      .whitehead{
+        height: 135px;
+        width: 136px;
+            margin-left: 50px;
+          }
+
+          .bodygrey{
+            height: 152px;
+            width: 252px;
+          }
+
+          .crusader{
+            height: 136px;
+            width: 137px;
+            margin-top: -150px;
+            margin-left: 151px;
+          }
+
+        .greta_div{
+          line-height: 10rem;
+         
+          
+          
+        }
+        .dont {
+  color: #ffffff;
+font-family: "Monument Extended-Regular", Helvetica;
+font-size: 5rem;
+font-weight: 400;
+letter-spacing: 0;
+line-height: 50px;
+ 
+            }
+            
+            .create_button {
+              color: #282828;
+              font-family: "PP Monument Extended-Regular", Helvetica;
+              font-size: 3rem;
+              font-weight: 400;
+              letter-spacing: 0;
+              line-height: 30.5px;
+              text-align: center;
+              white-space: nowrap;
+                background-color: #33CC00;
+                border-radius: 40px;
+               padding: 10px;
+                cursor: pointer;
+                padding-left: 30px;
+                padding-right: 30px;
+                }
+
+  
+    .sign_flex{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 190px;
+    margin-bottom: 13rem;
+    }
+
+    .sign_flexx{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 7rem;
+     margin-bottom: 13rem;
+     }
+
+    .sign_flex > * + * {
+      margin-left: 10rem; /* Adjust as needed */
+    }
+
+    .sign_flexx > *  {
+      margin-left: 10rem; /* Adjust as needed */
+    }
+
+
+    @media screen and (max-width: 768px) {
+       body  .sign_flexx{
+          display: grid !important;
+          flex-direction: column;
+          justify-content: center !important;
+          margin-top: 1rem;
+          margin-left: -10rem;
+         }
+
+       body  .ontop_img{
+         display: none !important;
+         }
+
+         .sign_opacity{
+          font-size: 6.2rem;
+          line-height: 90px;
+          font-weight: bold !important;
+         }
+
+         .dont{
+         font-size: 4.5rem;
+         line-height: 50px;
+         }
+
+         .create_button{
+          font-size: 2.5rem;
+         }
+
+         .whitehead{
+
+         }
+
+       body  .bodygrey{
+         height: 100px;
+         width: 150px;
+         }
+
+        
+
+    }
+  
+
+  

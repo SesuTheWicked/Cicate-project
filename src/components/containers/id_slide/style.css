@@ -1,0 +1,92 @@
+.slide_text{
+color: #282828;
+font-family: "Monument Extended-Regular", Helvetica;
+font-size: 25px;
+font-weight: 400;
+letter-spacing: 0;
+line-height: 26.8px;
+white-space: nowrap;
+}
+
+.slide_text:hover{
+    background-color:#282828;
+    border-radius: 3rem;
+    padding: 1rem;
+    color: #ffffff;
+}
+
+.pad{
+    margin-top: 70px;
+    position: relative;
+}
+
+
+.img_gren{
+margin-right: 10px;
+}
+
+
+.black_id{
+    color: #ffffff;
+    font-family: "Monument Extended-Regular", Helvetica;
+    font-size: 20px;
+font-weight: 400;
+border-radius: 40px;
+padding: 10px;
+text-align: center;
+margin-right: 300px;
+text-align: center;
+background-color: #282828;
+}
+
+.black_id:hover{
+    background-color:yellowgreen !important;
+    border-radius: 3rem;
+    padding: 1rem;
+    color: #ffffff;
+}
+
+.row_flex3{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.row_flex3 > * + * {
+    margin-left: 4rem; /* Adjust as needed */
+  }
+
+  @media screen and (max-width: 600px) {
+
+
+    .row_flex3{
+  gap: 0rem;
+    }
+
+    .img_gren{
+        margin-right: 0px;
+    }
+
+    .slide_text{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .img_gren{
+        display: none !important;
+    }
+
+    .black_id{
+        margin-right: 0px;
+        font-size: 10px;
+        padding: 4px;
+    }
+
+    .pad{
+        margin-top: 10px;
+    }
+
+    .row_flex3 > * + * {
+        margin-left: 1rem; /* Adjust as needed */
+      }
+  }
+

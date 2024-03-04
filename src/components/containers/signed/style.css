@@ -1,0 +1,137 @@
+
+
+
+
+    
+
+ .up__header{
+text-decoration: none;
+right: 10px;
+display: flex;
+justify-content: center;
+gap: 1rem;
+margin-right: 700px;
+color: #282828;
+font-family: "Monument Extended-Regular", Helvetica;
+font-size: 40px;
+font-weight: bold;
+letter-spacing: -0.3px;
+line-height: 1.4px;
+text-align: right;
+cursor: pointer;
+
+
+
+
+
+
+    }
+
+ .separator {
+    height: 50px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 10px;
+    }
+
+
+
+@media screen and (max-width: 1000px) {
+    body .nav__toggler {
+      display: block;
+      cursor: pointer;
+      margin-right: auto;
+      display: grid;
+      justify-content: flex-end;
+    }
+
+    .nav__menu {
+        position: fixed;
+        top: 7vh;
+        height: 100%;
+        width: 100%;
+        right: 0;
+        background: green;
+        flex-direction: column;
+        transform: translateX(100%);
+        text-decoration: none;
+        z-index: 3;
+    }}
+
+    .nav__active{
+        transform: translateX(0);
+    }
+
+  
+     
+     .box {
+       height: 724px;
+       width: 724px;
+     }
+     
+     .box .gradient {
+       background: radial-gradient(50% 50% at 50% 50%, rgb(51, 204, 0) 0%, rgba(217, 217, 217, 0) 100%);
+       border-radius: 362px;
+       height: 724px;
+       margin-top: 20%;
+       position: fixed;
+       top: 0;
+       justify-content: center;
+       width: 724px;
+     }
+     
+     label .header {
+       color: #282828;
+       font-family: "Monument Extended-Regular", Helvetica;
+       font-size: 100px;
+       font-weight: 400;
+       left: 0;
+       line-height: 95.5px;
+       position: fixed;
+       text-align: center;
+       top: 0;
+       width: 1286px;
+       text-decoration: none;
+       }
+       .label .text-wrapper {
+       letter-spacing: 0;
+       }
+       .label .span {
+       letter-spacing: -33px;
+       }
+       
+     
+     
+     .test_format_button {
+       align-items: center;
+       background-color: #33cc00;
+       border-radius: 10px;
+       display: inline-flex;
+       gap: 10px;
+       justify-content: center;
+       overflow: hidden;
+       padding: 10px 13px;
+       position: relative;
+       text-decoration: none;
+       }
+     
+       .test_format_button .text-wrapper {
+         color: #ffffff;
+         font-family: "Monument Extended-Regular", Helvetica;
+         font-size: 18px;
+         font-weight: 400;
+         letter-spacing: 0;
+         line-height: 19.6px;
+         margin-top: -1px;
+         position: relative;
+         white-space: nowrap;
+         width: fit-content;
+         }
+
+
+
+
+
+
+

@@ -1,0 +1,277 @@
+.how_to_use{
+  color: #282828;
+  font-family: "Monument Extended-Regular", Helvetica;
+  font-size: 100px;
+  font-weight: bold;
+  letter-spacing: -3px;
+  line-height: 94.5px;
+  text-align: center;
+margin-top: 200px 
+  }
+
+.how_apply{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+  
+  .pocas{
+    color: #282828;
+    font-family: "Monument Extended-Regular", Helvetica;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 57.3px;
+    text-align: center;
+  }
+  
+  .opacity{
+    color: #282828;
+    font-family: "Monument Extended-Regular", Helvetica;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 57.3px;
+    text-align: center;
+  opacity: 0.5;
+  }
+
+  .gate_display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 5rem;
+  }
+  .gate_display > * + * {
+    margin-left: 4rem; /* Adjust as needed */
+  }
+ 
+ 
+            
+            
+    .gate__container {
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      font-size: larger;
+      font-weight: bold;
+      margin-top: 90px;
+    color: #282828;
+  font-family: "Monument Extended-Regular", Helvetica;
+  font-size: 60px;
+  letter-spacing: 0;
+  line-height: 30.3px;
+  text-align: center;
+  padding-top: 50px;
+    }
+    .gate__container > * + * {
+      margin-left: 2rem; /* Adjust as needed */
+    }
+
+.gate_bos{
+  border: 2px solid;
+  border-color: #ffffff;
+  border-radius: 43px;
+  height: 75vh;
+  width: 65vh;
+  margin-top: 2rem;
+
+    }
+
+.dispaly_box{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 7rem;
+gap: 4rem;
+}
+
+.dispaly_box > *  {
+  margin-left: 4rem; /* Adjust as needed */
+}
+
+.dispaly_box1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+  gap: 4rem;
+  
+  }
+  
+
+.box_bl{
+  border: 2px solid;
+  border-color: #ffffff;
+  border-radius: 43px;
+  height: 40vh;
+  width:50vh;
+  margin-top: 3rem;
+
+}
+.gate_bos_right{
+  text-align: justify;
+    height: 605px;
+    width: 400px;
+    
+}
+
+.labelx {
+  height: 193px;
+  width: 400px;
+  margin-top: 0rem;
+  }
+
+.gate_resul{
+color: #282828;
+font-family: "Monument Extended-Regular", Helvetica;
+font-size: 45px;
+font-weight: bold;
+left: 0;
+letter-spacing: 0;
+line-height: 60px;
+margin-left: 30rem;
+margin-top: 4rem;
+
+
+}
+.spandown{
+color: #282828;
+font-family: "Monument Extended-Regular", Helvetica;
+font-size: 34px;
+font-weight: bold;
+letter-spacing: 0;
+line-height: 35px;
+}
+.gate_up{
+  font-family: "PP Monument Extended-Light", Helvetica;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30.6px;
+}
+
+.gate_bigg{
+  line-height: 49px;
+color: #282828;
+font-family: "Monument Extended-Regular", Helvetica;
+font-size: 50px;
+font-weight: 400;
+}
+
+.p_class{
+color: #282828;
+font-family: "Gordita-Regular", Helvetica;
+font-size: 17px;
+font-weight: 400;
+letter-spacing: 0;
+line-height: 30px;
+opacity: 0.8;
+text-align: justify;
+}
+
+@media screen and (max-width:600px){
+  .how_to_use{
+   
+    font-size: 40px;
+
+    line-height: 39.5px;
+
+  margin-top: 70px 
+    }
+
+    .dispaly_box > *   {
+      margin-left: 0rem; /* Adjust as needed */
+    }
+
+    .pocas{
+      font-size: 20px;
+    }
+
+    .opacity{
+      font-size: 20px;
+    }
+
+    .p_class{
+      font-size: 15px;
+    }
+
+  .gate__container {
+
+    margin-top: 10px;
+font-size: 10px;
+line-height: 20.3px;
+padding-top: 0px;
+  }
+  .gate__container > * + * {
+    margin-left: 4rem; /* Adjust as needed */
+  }
+.box_bl{
+  display: none !important;
+}
+
+body .gate_bos{
+  height: 38vh;
+  width: 40vh;
+  margin-top: 1rem;
+
+    }
+  .gate_display{
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0rem;
+    margin-bottom: 10rem;
+    gap: 1rem;
+  }
+
+  .gate_bos_right{
+    text-align: justify;
+      height: 605px;
+      width: 270px;
+  }
+
+  .gate_resul{
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 0rem;
+    margin-top: 0rem;
+
+    display: none;
+  }
+  .labelx {
+    height: 193px;
+    width: 270px;
+    margin-top: 10rem;
+    }
+
+  .dispaly_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    }
+
+    .spandown{
+      font-size: 25px;
+      line-height: 30px;
+      }
+
+      .gate_up{
+        font-size: 20px;
+        line-height: 19.6px;
+        font-weight: 400;
+      }
+      
+      .gate_bigg{
+        line-height: 40px;
+      font-size: 25px;
+      font-weight: bold;
+      }
+
+      .gate_display > * + *  {
+        margin-right: 4rem; /* Adjust as needed */
+      }
+}
